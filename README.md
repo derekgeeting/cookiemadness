@@ -1,5 +1,6 @@
 cookie thieves
 
 To install:
-npm install
+
+npm install;
 node app
