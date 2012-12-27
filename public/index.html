@@ -1,0 +1,21 @@
+<!doctype html>
+<html>
+<head>
+  <link rel="stylesheet" type="text/css" href="index.css">
+  <script src="/socket.io/socket.io.js"></script>
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+  <script src="index.js"></script>
+</head>
+<body>
+  <h2>Cookie Madness</h2>
+  <div id="adminDiv"><button id="startBtn">Start!</button></div>
+  <div id="loginDiv">
+    <input id="nameField" type="text" placeholder="your name here">
+    <button id="loginBtn">login</button>
+  </div>
+  <div id="cookieJar">
+    <h3>Cookies stolen: <span id="numThefts">0</span></h3>
+    <h3>Time remaining: <span id="timeRemaining">0</span></h3>
+  </div>
+</body>
+</html>

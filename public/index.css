@@ -1,0 +1,38 @@
+.player {
+  float: left;
+  background: url('cookie96.png') no-repeat center;
+  min-height: 96px;
+  min-width: 96px;
+  position:relative;
+  cursor: pointer;
+}
+.cookies {
+  text-align: center;
+  font-family: Courier New;
+  font-weight: bold;
+  font-size: 24px;
+  background-color: #eaba74;
+  border-radius: 10px;
+  position: absolute;
+  width: 50%;
+  margin: 36px 0 0 -25%;
+  left: 50%;
+}
+.playerName {
+  text-align: center;
+  font-family: Courier New;
+  font-size: 12px;
+  background-color: #ffffff;
+  border: 1px solid black;
+  border-radius: 10px;
+  position: absolute;
+  bottom:0;
+  width:100%;
+  padding:1px;
+}
+h2 {
+  text-align: center;
+}
+#loginDiv {
+  text-align: center;
+}
