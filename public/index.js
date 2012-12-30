@@ -1,5 +1,5 @@
 $(document).ready(function() {
-  var socket = io.connect('http://localhost:7777');
+  var socket = io.connect(window.location.host);
   var endTime = 0;
 
   socket.on('playerData', function(playerData) {

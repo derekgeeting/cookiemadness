@@ -34,7 +34,7 @@ io.sockets.on('connection', function(socket) {
     socket.get('name', function(err,name) {
       if(!err && name==global.adminName)
         stealingAllowed = true;
-        var playTime = 10*1000;
+        var playTime = 30*1000;
         io.sockets.emit('start',playTime);
         setTimeout(function() {
           stealingAllowed = false;
